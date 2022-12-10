@@ -6,7 +6,7 @@
  * Return: Always 0
  */
 
-int main(vooid)
+int main(void)
 {
 	int tens;
 	int ones;
