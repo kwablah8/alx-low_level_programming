@@ -2,7 +2,7 @@
 
 /**
  * main - Prints sum of fibo numbers under 4,000000
- * Returns: 0
+ * Return: 0
  */
 
 int main(void)
