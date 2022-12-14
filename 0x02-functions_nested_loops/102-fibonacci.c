@@ -2,8 +2,7 @@
 #include <stdio.h>
 
 /**
- * min - Prints first 50 numbers of the fin
- * bonacci sequence
+ * main - Prints first 50 numbers of the fibonacci sequence
  * 
  * Return: 0
  */
