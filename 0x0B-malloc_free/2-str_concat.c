@@ -14,7 +14,7 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	unsigned int s1_legnth = 0;
+	unsigned int s1_length = 0;
 	unsigned int s2_length = 0;
 	char *alloc_mem;
 	unsigned int i, j;
