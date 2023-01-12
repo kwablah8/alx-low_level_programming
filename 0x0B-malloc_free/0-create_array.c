@@ -4,7 +4,7 @@
  * create_array - Create an array, and initializes it with a specific
  * char @c
  *
- * @suze: Siize of the array of chars to be created
+ * @size: Size of the array of chars to be created
  *
  * @c: Char value to initialeze the array with
  *
@@ -23,7 +23,7 @@ char *create_array(unsigned int size, char c)
 	arr = malloc(size);
 
 	if (arr == NULL)
-		return('\0');
+		return ('\0');
 
 	for (i = 0; i < size; i++)
 		arr[i] = c;

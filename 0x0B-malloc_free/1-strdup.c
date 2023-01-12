@@ -14,13 +14,12 @@ char *_strdup(char *str)
 {
 	char *alloc_mem;
 	unsigned int i;
-	unsigned int i;
-	unsigne int length_of_string = 0;
+	unsigned int length_of_string = 0;
 
 	if (str == NULL)
 		return ('\0');
 
-	while (*(str + length_of_sring) != '\0')
+	while (*(str + length_of_string) != '\0')
 		length_of_string++;
 
 	length_of_sring++;
