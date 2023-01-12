@@ -27,7 +27,7 @@ char *_strdup(char *str)
 	alloc_mem = malloc(sizeof(*str) * length_of_string);
 
 	if (alloc_mem == NULL)
-		return('\0');
+		return ('\0');
 	for (i = 0; i < length_of_string; i++)
 		alloc_mem[i] = *(str + i);
 

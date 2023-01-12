@@ -30,5 +30,5 @@ char *create_array(unsigned int size, char c)
 
 	arr[size] = '\0';
 
-	return(arr);
+	return (arr);
 }
