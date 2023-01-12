@@ -10,7 +10,7 @@
  * Return: Pointer to concatenate string (SUCCESS) OR
  * NULL if @ac == 0 or @av == NULL (FAILURE) or
  * NULL if insufficient memory was available (FAILURE)
- * */
+ */
 
 char *argstostr(int ac, char **av)
 {
@@ -32,7 +32,7 @@ char *argstostr(int ac, char **av)
 
 	result = malloc(sizeof(char) * t_count + 1);
 
-	if (result == NULL) 
+	if (result == NULL)
 	{
 		return ('\0');
 	}
