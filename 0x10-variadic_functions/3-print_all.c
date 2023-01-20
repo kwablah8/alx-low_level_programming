@@ -70,7 +70,7 @@ void (*get_func(char identifier, struct format_struct *fmt_arr))(va_list *)
 		i++;
 	}
 
-	retirn (fmt_arr[i].fmt_print_func);
+	return (fmt_arr[i].fmt_print_func);
 }
 
 /**
@@ -90,17 +90,7 @@ void print_char(va_list *arg)
 
 void print_int(va_list *arg)
 {
-	printf("%d", va_arg(*arg, int));
-}
-
-/**
- * printint -prints an int
- * @arg:pointer to int
- */
-
-void print_int(va_list *arg)
-{
-	printf("%d", va_arg(*arg, int));
+	printf("%d", va_arg(*arg, int))
 }
 
 /**
@@ -118,7 +108,7 @@ void print_float(va_list *arg)
  * @arg: pointer to string
  */
 
-void print_float(va_list *arg)
+void print_string(va_list *arg)
 {
 	char *str[2];
 	int i;
