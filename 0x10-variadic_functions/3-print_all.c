@@ -41,7 +41,7 @@ void print_all(const char * const format, ...)
 			separator = ", ";
 		}
 
-		j++
+		j++;
 	}
 
 	va_end(args);
@@ -90,7 +90,7 @@ void print_char(va_list *arg)
 
 void print_int(va_list *arg)
 {
-	printf("%d", va_arg(*arg, int))
+	printf("%d", va_arg(*arg, int));
 }
 
 /**
